@@ -1,0 +1,51 @@
+.site-branding {
+	margin-top: $gutter-width*3;
+	margin-bottom: $gutter-width*2;
+	float: $float-direction;
+	width: 100%;
+
+	h2 {
+		width: $sidebar-width*1.5;
+		float: right;
+		text-align: right;
+		color: $secondary-color;
+	}
+}
+
+// Primary navigation styling
+.main-navigation {
+	
+	h1 {
+		display: none;
+	}
+	.screen-reader-text {
+		margin-left: -9999px;
+	}
+}
+
+.menu-primary-navigation-container {
+	background-color: $tertiary-color;
+	float: $float-direction;
+	width: 100%;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: $nav-list-type;
+		float: $float-direction;
+	}
+	li {
+		margin-right: 0;
+		float: $float-direction;
+
+		a {
+			text-decoration: none;
+			color: $primary-nav-color;
+			padding: $gutter-width $gutter-width*2;
+			display: block;
+			&:hover, &:active {
+				background-color: $fourthary-color;
+			} 
+		}
+	}
+}  

@@ -1,0 +1,26 @@
+  @mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin box-size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+.box { 
+	@include border-radius(8px); 
+  	@include box-size(75%, auto);
+	margin: $gutter-width 0;
+	padding: $gutter-width*1.5 $gutter-width*4;
+	color: #fff;
+	background-color: $fourthary-color;
+	text-decoration: none;
+
+	&:hover {
+	color: $tertiary-color;
+	}
+}
