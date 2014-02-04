@@ -14,7 +14,7 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+<link href='http://fonts.googleapis.com/css?family=Fenix|Ruda' rel='stylesheet' type='text/css'>
 <?php wp_head(); ?>
 </head>
 
@@ -23,7 +23,7 @@
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="site-title" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/sweet-sassafras-logo.png" alt="<?php echo esc_url( home_url( '/' ) ); ?>"/></a>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</div>
 

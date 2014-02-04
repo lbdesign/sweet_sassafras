@@ -1,0 +1,29 @@
+@media all and (max-width: 480px) and (min-width: 320px) {
+	
+	//Page structure 
+	#page {
+		width: 90%;
+		padding: 0 5%;
+	}
+	#primary {
+		width: 100%;
+	}
+	#secondary {
+		width: 100%;
+	}
+	#colophon {
+		padding: 3%;
+		width: 94%;
+	}
+
+	// Banner styling
+	.site-branding {
+		h2 {
+			width: 100%;
+			text-align: center;
+		}
+		.site-title {
+			margin: 0 2.5%;
+		}
+	}
+}
