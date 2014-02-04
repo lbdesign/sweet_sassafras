@@ -70,15 +70,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/sass\/partials\/_layout.scss" : {
+    "\/sass\/partials\/_options.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_layout.scss",
+      "inputAbbreviatedPath" : "\/sass\/partials\/_options.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/_layout.css",
+      "outputAbbreviatedPath" : "\/_options.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -94,15 +94,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/partials\/_options.scss" : {
+    "\/sass\/partials\/_layout.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_options.scss",
+      "inputAbbreviatedPath" : "\/sass\/partials\/_layout.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/_options.css",
+      "outputAbbreviatedPath" : "\/_layout.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -163,21 +163,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/inc\/jetpack.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/jetpack.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/content-single.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/content-single.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/inc\/jetpack.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/jetpack.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -244,15 +244,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/inc\/extras.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/extras.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/sass\/partials\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -265,14 +256,25 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/content-none.php" : {
+    "\/inc\/extras.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-none.php",
+      "inputAbbreviatedPath" : "\/inc\/extras.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/images\/sweet-sassafras-logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/sweet-sassafras-logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/sweet-sassafras-logo.png",
+      "initialSize" : 5328,
+      "fileType" : 8192
     },
     "\/sass\/partials\/_mediaqueries.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -285,6 +287,15 @@
       "outputAbbreviatedPath" : "\/_mediaqueries.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/single.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/single.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/comments.php" : {
       "ignoreWasSetByUser" : 0,
@@ -304,25 +315,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/single.php" : {
+    "\/content-none.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/single.php",
+      "inputAbbreviatedPath" : "\/content-none.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/images\/sweet-sassafras-logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/sweet-sassafras-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/sweet-sassafras-logo.png",
-      "initialSize" : 5328,
-      "fileType" : 8192
     },
     "\/content-page.php" : {
       "ignoreWasSetByUser" : 0,
